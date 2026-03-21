@@ -1,0 +1,16 @@
+https://www.kaggle.com/datasets/amanik000/kidney-disease-dataset/data
+
+
+Kidney Disease Dataset
+
+
+Skup podataka sadrži medicinske podatke i podatke o porodičnim karakteristikama pacijenata koje se koriste za procenu hronične bolesti bubrega ili rizika od bolesti. Skup je dizajniran za razvoj modela koji vrše procenu rizika i stadijuma bolesti kroz višeklasnu klasifikaciju.
+
+Karakteristike skupa podataka:
+Broj uzoraka: 20538.
+Broj obeležja, sa ciljnom promenljivom: 43 (uključujući demografske podatke, laboratorijske analize krvi/urina i anamnezu porodičnih bolesti).
+Ciljna promenljiva: Target - Prisustvo hronične bolesti bubrega ili rizika od bolesti koji su razvrstani u 5 kategorija: No_disease, Low_Risk, Moderate_Risk, High_Risk, Severe_Disease.
+
+
+Marija Todorović IN 13/2022
+Nenad Lukić IN 17/2022

@@ -1,0 +1,28 @@
+Kontrolna tačka 2 za projekat iz Mašinskog učenja 1
+
+Poštovana Tijana,
+
+U mejlu ćemo Vam opisati plan za rad na projektu iz Mašinskog učenja 1, kako bismo mogli da dobijemo povratne informacije ako je to moguće putem mejla.
+
+1. Problem koji rešavamo:
+- Cilj projekta je razvoj klasifikacionog modela za procenu rizika i stadijuma hronične bolesti bubrega na osnovu medicinskih i demografskih podataka. Problem je definisan kao višeklasna klasifikacija sa pet kategorija: No_disease, Low_Risk, Moderate_Risk, High_Risk i Severe_Disease. Skup podataka sadrži 20.538 uzoraka i 43 obeležja, uključujući laboratorijske analize krvi i urina.
+
+2. Algoritmi koje planiramo da koristimo:
+- Planiramo da koristimo: kNN algoritam, metodu slučajne šume (Random Forest) i SVM klasifikator za koji ćemo koristiti pristup: jedan protiv svih. Takođe ćemo koristiti i PCA i LDA algoritme za redukciju dimenzionalnosti.
+
+3. Vrsta validacije koju ćemo koristiti:
+- Koristićemo metodu unakrsne validacije, sa podelom skupa na 5 delova - petostruka unaksrna validacija.
+
+4. Mere uspešnosti:
+- Planiramo da koristimo F1_score (macro prosek) kao meru uspešnosti uz prikaz matrice konfuzije i uz eventualno prikazivanje ostalih mera kao što su: precision, accuracy i recall.
+
+Srdačan pozdrav,
+Nenad Lukić IN 17/2022 i Marija Todorović IN 13/2022
+
+-------------------------------------------------
+
+Sve zvuci korektno.
+
+Podatke je potrebno da podelite na train i test. Na train delu radite unakrsnu validaciju s ciljem pronalaska optimalnih hiperparametara za svaki od algoritama (gridSearchCV) pa kad nadjete optimalne hiperparametre, onda algoritme s optimalnim hiperparametrima istrenirate na train i istestirate na test skupu i uporedite po svim merama koje ste naveli.
+
+Tijana
